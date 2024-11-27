@@ -5,6 +5,8 @@
 
 html {
     line-height: 0;
+    overflow-x: hidden;
+    background-color: #e6e6e6;
 }
 
 body {
@@ -174,6 +176,8 @@ ul a {
 
 .main-btn {
     display: block;
+    width: auto;
+    height: auto;
     padding: 15px 15px;
     border-style: none;
     background-color: #04387C;
@@ -181,7 +185,22 @@ ul a {
     font-family: "Poppins";
     font-size: 20px;
     font-variant:normal;
-    font-weight: 200;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.btn-reverse {
+    display: block;
+    width: auto;
+    height: auto;
+    padding: 15px 15px;
+    border-color: #04387C;
+    background-color: white;
+    color: #04387C;
+    font-family: "Poppins";
+    font-size: 20px;
+    font-variant:normal;
+    font-weight: 300;
     line-height: normal;
 }
 
@@ -211,6 +230,7 @@ ul a {
 
 #top-nav li:hover {
     color: orange;
+    font-weight: 500;
 }
 
 
@@ -265,4 +285,68 @@ ul a {
     position: relative;
     padding: 40px;
     margin: 80px;
+}
+
+.event-banner {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.812);
+    width: 600px;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.event-banner h2 {
+    font-family: "Poppins";
+    font-size: 24px;
+    font-weight: 300;
+    padding: 40px;
+    line-height: 110%;
+}
+
+.event-banner p {
+    font-family: "Poppins";
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 115%;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.event-btn {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#event strong {
+    font-weight: 600;
+    color:#04387C;
+}
+
+/* BIKES SECTION */
+#bikes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#bikes h1 {
+    font-family: "Poppins";
+    font-size: 55px;
+    font-weight: 500;
+    color: #303030;
+}
+
+.bikes-banner {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }

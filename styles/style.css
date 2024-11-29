@@ -86,6 +86,7 @@ nav {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
+    text-decoration: none;
     line-height: 40px; /* 100% */
     color: white;
 }
@@ -94,12 +95,38 @@ nav {
     padding-left: 0;
 }
 
-#top-nav li:hover {
+/* PADDING */
+.padding-all {
+    padding:40px;
+}
+
+/* NAV LINKS */
+#top-nav a {
+    display: inline;
+    margin-left: 10px;
+    font-family: "Poppins";    
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+    line-height: 40px; /* 100% */
+    color: white; 
+}
+
+#top-nav a:hover {
     color: orange;
     font-weight: 500;
 }
 
+#top-nav a:active {
+    color: orange;
+    font-weight: 500;
+}
 
+/* LAYOUT */
+.section-hero {
+    padding-top: 200px;
+}
 
 /* HERO */
 
@@ -110,6 +137,16 @@ nav {
     display: flex;
     flex-direction: column;
     position: relative;
+}
+
+#about-hero {
+    background-image: url(../images/about-hero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 566px;    
 }
 
 .hero-text h1 {
@@ -133,11 +170,32 @@ nav {
     padding: 80px;
 }
 
+.hero-text h3 {
+    font-family: "Poppins";
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 110%;
+    color: white;
+    justify-content: center;
+    padding-top: 30px;
+    padding-left: 85px;
+}
+
 .hero-btn {
     padding-left: 80px;
     padding-right: 80px;
     margin-top: -60px;
     padding-bottom: 70px;
+}
+
+/* LINKS */
+.hero-text h3 a:hover {
+    color: orange;
+}
+
+.hero-text h3 a:visited {
+    color:white;
+    text-decoration: none;
 }
 
 /* EVENT SECTION */
@@ -341,6 +399,7 @@ footer p, footer label {
 
 footer ul {
     padding: 0;
+    margin-top: -70px;
 }
 
 footer li {
@@ -387,6 +446,49 @@ footer img {
     margin-bottom: 16px;
 }
 
-#logo {
+.soc-logo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     width: 200px;
+    justify-content: space-between;
+}
+
+.soc-icons {
+    width: 35px;
+    height: 35px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 70px;
+    width: 100px;
+    height: 135px;
+}
+
+/* ABOUT */
+#about-body {
+    display: flex;
+    flex-direction: row;
+}
+
+#about-body ul {
+    padding: 40px;
+}
+
+#about-body li {
+    list-style-type: inline;
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+    font-family: "Poppins";
+    font-size: 24px;
+    text-align: left;
+    width: auto;
+}
+
+.divider {
+    border-left: 2px solid #1F1F1F;
+    height: auto;
 }

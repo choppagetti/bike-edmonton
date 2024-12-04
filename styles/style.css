@@ -41,6 +41,11 @@ nav {
     line-height: normal;
 }
 
+.main-btn:hover {
+    background-color: #032c61;
+    color: rgb(216, 216, 216);
+}
+
 .btn-reverse {
     display: block;
     width: auto;
@@ -56,6 +61,12 @@ nav {
     line-height: normal;
 }
 
+.btn-reverse:hover {
+    border-color: white;
+    background-color: #04387C;
+    color: white;    
+}
+
 .btn-form {
     display: block;
     width: auto;
@@ -68,6 +79,28 @@ nav {
     font-size: 20px;
     font-variant:normal;
     font-weight: 300;
+    line-height: normal;
+}
+
+.btn-form:hover {
+    border-color: white;
+    background-color: black;
+    color: white;
+}
+
+.btn-drop {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 15px 15px;
+    background-color: #04387C;
+    border: none;
+    color: white;
+    text-align: left;
+    font-family: "Poppins";
+    font-size: 24px;
+    font-variant:normal;
+    font-weight: 600;
     line-height: normal;
 }
 
@@ -149,6 +182,37 @@ nav {
     height: 566px;    
 }
 
+#workshop-hero {
+    background-image: url(../images/workshop-hero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 566px;    
+}
+
+.home-hero-text h1 {
+    font-family: "Poppins";
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 110%;
+    color: white;
+    justify-content: center;
+    padding: 80px;
+    margin-bottom: -180px;    
+}
+
+.home-hero-text h2 {
+    font-family: "Poppins";
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 110%;
+    color: white;
+    justify-content: center;
+    padding: 80px;
+}
+
 .hero-text h1 {
     font-family: "Poppins";
     font-size: 80px;
@@ -196,6 +260,14 @@ nav {
 .hero-text h3 a:visited {
     color:white;
     text-decoration: none;
+}
+
+.home-link a {
+    text-decoration: none;
+}
+
+.home-link a:hover {
+    text-decoration: underline;
 }
 
 /* EVENT SECTION */
@@ -361,12 +433,13 @@ nav {
     flex-direction: column;
     flex-wrap: wrap;
     font-family: "Poppins";
-    font-size: 18px;
+    font-size: 22px;
     line-height: normal;
     justify-content: center;
     align-items: center;
     text-align: left;
     padding: 20px;
+    padding-left: 40px;
 }
 .donation-img {
     width: 750px;
@@ -472,23 +545,150 @@ footer img {
 #about-body {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 #about-body ul {
-    padding: 40px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 80px;
 }
 
 #about-body li {
     list-style-type: inline;
     margin-bottom: 20px;
     padding-bottom: 50px;
+    padding-left: 80px;
     font-family: "Poppins";
     font-size: 24px;
     text-align: left;
     width: auto;
 }
 
+#about-body li:hover {
+    color:#04387C;
+}
+
+#about-body strong {
+    color:#04387C;
+}
+
+#about-body p {
+    font-family: "Poppins";
+    font-size: 22px;
+    font-weight: normal;
+}
+
 .divider {
     border-left: 2px solid #1F1F1F;
-    height: auto;
+    height: 360px;
+    margin-top: 40px;
 }
+
+.body {
+    width: 850px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 5px;
+    font-family: "Poppins";
+    font-size: 20px;
+    line-height: normal;
+    text-align: left;
+    padding-top: 40px;
+    padding-right: 120px;
+}
+
+.header {
+    position: relative;
+}
+
+.header-text {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-left: 20px;
+    margin-top: -20px;
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: normal;
+    color: white;
+}
+
+/* WORKSHOP */
+#workshop-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#workshop-body ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 80px;
+}
+
+#workshop-body li {
+    list-style-type: inline;
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    font-family: "Poppins";
+    font-size: 24px;
+    text-align: left;
+    width: auto;
+}
+
+#workshop-body li:hover {
+    color:#04387C;
+}
+
+#workshop-body strong {
+    color:#04387C;
+}
+
+#workshop-body h2 {
+    font-family: "Poppins";
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#workshop-body p {
+    font-family: "Poppins";
+    font-size: 22px;
+    font-weight: normal;
+}
+.service-banner {
+    display: flex;
+    flex-direction: column;
+    background-color: #E1E9EE;
+    width: 102.5%;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.banner-text {
+    padding-left: 20px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #E1E9EE;
+    padding-left: 20px;
+    z-index: 1;
+  }
+
+  .dropdown:active .dropdown-content {
+    display: block;
+  }

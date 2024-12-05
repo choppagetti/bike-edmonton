@@ -692,3 +692,14 @@ footer img {
   .dropdown:active .dropdown-content {
     display: block;
   }
+
+  /* SERVICES */
+  #services-hero {
+    background-image: url(../images/services-hero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 566px;    
+  }

@@ -548,30 +548,9 @@ footer img {
     justify-content: space-between;
 }
 
-#about-body ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    padding-top: 80px;
-}
-
-#about-body li {
-    list-style-type: inline;
-    margin-bottom: 20px;
-    padding-bottom: 50px;
-    padding-left: 80px;
-    font-family: "Poppins";
-    font-size: 24px;
-    text-align: left;
-    width: auto;
-}
-
-#about-body li:hover {
-    color:#04387C;
-}
 
 #about-body strong {
-    color:#04387C;
+    color:#1F1F1F;
 }
 
 #about-body p {
@@ -586,6 +565,46 @@ footer img {
     font-size: 28px;
 }
 
+.submenu strong {
+    color:#1F1F1F;
+}
+
+.submenu ul {
+    list-style-type: none;
+    margin: 0;
+    margin: 0;
+    padding: 0;
+    padding-top: 80px;
+}
+
+.submenu li {
+    list-style-type: inline;
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    font-family: "Poppins";
+    font-size: 24px;
+    text-align: left;
+    width: auto;
+}
+
+.submenu li:hover {
+    color:#04387C;
+}
+
+.bullet-list ul {
+    list-style-type: circle;
+    padding: 0;
+    margin: 0;
+}
+
+.bullet-list li {
+    margin-bottom: 20px;
+    font-family: "Poppins";
+    font-size: 24px;
+    text-align: left;
+    width: auto;    
+}
 
 .divider {
     border-left: 2px solid #1F1F1F;

@@ -27,7 +27,7 @@
             <nav>
                 <!-- logo -->
                 <div>
-                    <a href="index.html"><img src="images/bike-edm-logo.png" id="logo"></a>
+                    <a href="index.html"><img src="images/bike-edm-logo.png" id="logo" alt="Bike Edmonton logo"></a>
                 </div>
 
                 <!-- navigation bar-->
@@ -61,72 +61,313 @@
         </section>
 
         <section id="workshop-body">
-            <div class="padding">
+            <div class="padding submenu">
                 <ul>
                     <li><a href="#workshop-services">Workshop Services</a></li>
-                    <li>Mechanical Courses</li>
-                    <li>Hours & Location</li>
-                    <li>Workshop FAQ</li>
-                    <li>Volunteer</li>
+                    <li><a href="#mech-courses">Mechanical Courses</a></li>
+                    <li><a href="#hours-loc">Hours & Location</a></li>
+                    <li><a href="#workshop-faq">Workshop FAQ</a></li>
+                    <li><a href="#volunteer">Volunteer</a></li>
                 </ul>
             </div>
 
             <div class="divider"></div>
 
-            <div id="workshop-services" class="body">
-                
-                <div class="header">
-                    <div class="header-text">
-                        <h1>Workshop Services</h1>
+            <!-- WORKSHOP SERVICES SUBSECTION -->
+
+            <div id="workshop-services">
+                <div class="body">
+                    <div class="header">
+                        <div class="header-text">
+                            <h1>Workshop Services</h1>
+                        </div>
+                        <img src="images/workshop-services.png" alt="Header for Workshop Services subsection">
                     </div>
-                    <img src="images/workshop-services.png">
-                </div>
 
-                <div>
-                    <p>As North America’s longest-running community bike shop program, we operate a fully-equipped, volunteer-run, bike workshop!<br><br>
-                        Whether you’re new or experienced, we have the tools needed to repair and maintain your bicycle, and mechanics that are happy to teach you how to do it.</p>
-                </div>
-
-                <div class="service-banner">
-                    <div class="banner-text">
-                        <h2>Do-It-Yourself (DIY) Service</h2>
-                        <p>For independent work on your bike with our tools!<br>- $10/hr for members, $20/hr for non-members.<br>- Please note that our volunteers will provide very limited and hands-off guidance.</p>
-                        <button class="btn-reverse">BOOK THIS SERVICE</button>
+                    <div>
+                        <p>As North America’s longest-running community bike shop program, we operate a fully-equipped, volunteer-run, bike workshop!<br><br>
+                            Whether you’re new or experienced, we have the tools needed to repair and maintain your bicycle, and mechanics that are happy to teach you how to do it.</p>
                     </div>
-                </div>
 
-                <div class="service-banner">
-                    <div class="banner-text">
-                        <h2>Do-It-Together (DIT) Service</h2>
-                        <p>Learn to repair your bike with our hands-on assistance!<br>- $20/hr for members, $30/hr for non-members.<br>- The goal is to learn bike repair skills, so expect to be actively involved in the work.</p>
-                        <button class="btn-reverse">BOOK THIS SERVICE</button>
+                    <div class="service-banner">
+                        <div class="banner-text">
+                            <h3>Do-It-Yourself (DIY) Service</h3>
+                            <p>For independent work on your bike with our tools!<br>- $10/hr for members, $20/hr for non-members.<br>- Please note that our volunteers will provide very limited and hands-off guidance.</p>
+                            <button class="btn-reverse">BOOK THIS SERVICE</button>
+                        </div>
                     </div>
-                </div>
 
-                <div class="service-banner">
-                    <div class="banner-text">
-                        <h2>Full Service Repairs</h2>
-                        <p>For if you want us to repair or adjust your bike.<br>- 15-minute service: $14/hr for members, $20/hr for non-members.<br>- 30-minute service: $28/hr for members, $40/hr for non-members.<br>- We will do as much work as possible in the time booked.</p>
-                        <button class="btn-reverse">BOOK THIS SERVICE</button>
+                    <div class="service-banner">
+                        <div class="banner-text">
+                            <h3>Do-It-Together (DIT) Service</h3>
+                            <p>Learn to repair your bike with our hands-on assistance!<br>- $20/hr for members, $30/hr for non-members.<br>- The goal is to learn bike repair skills, so expect to be actively involved in the work.</p>
+                            <button class="btn-reverse">BOOK THIS SERVICE</button>
+                        </div>
                     </div>
-                </div>
 
-                <div class="service-banner">
-                    <div class="banner-text">
-                        <h2>Parts Consultation (FREE)</h2>
-                        <p>For finding the right part or just wanting to browse our collection.<br>- Please bring the bike or the relevant part; a clear photo can sometimes suffice.<br>- Shop fees may be charged for appointments that run longer than 15 minutes, or for those requiring extensive inspections.</p>
-                        <button class="btn-reverse">BOOK THIS SERVICE</button>
+                    <div class="service-banner">
+                        <div class="banner-text">
+                            <h3>Full Service Repairs</h3>
+                            <p>For if you want us to repair or adjust your bike.<br>- 15-minute service: $14/hr for members, $20/hr for non-members.<br>- 30-minute service: $28/hr for members, $40/hr for non-members.<br>- We will do as much work as possible in the time booked.</p>
+                            <button class="btn-reverse">BOOK THIS SERVICE</button>
+                        </div>
                     </div>
-                </div>
 
-                <div class="dropdown">
-                    <button class="btn-drop">Before You Book</button>
-                    <div class="dropdown-content">
+                    <div class="service-banner">
+                        <div class="banner-text">
+                            <h3>Parts Consultation (FREE)</h3>
+                            <p>For finding the right part or just wanting to browse our collection.<br>- Please bring the bike or the relevant part; a clear photo can sometimes suffice.<br>- Shop fees may be charged for appointments that run longer than 15 minutes, or for those requiring extensive inspections.</p>
+                            <button class="btn-reverse">BOOK THIS SERVICE</button>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h2 class="section-header">Before You Book</h2>
                         <p>- You can cancel at any time, however we will not refund appointments cancelled less than one hour before their start time.</p>
+                        <p>- Only one bike per appointment is allowed for full service repairs.</p>
+                        <p>- The repair rates do not include parts.</p>
+                        <p>- Please mention any known required parts in the booking form.</p>
+                        <p>- We have limited ability to service some modern or higher-end components. Please contact us to confirm any components before using our workshop.</p>
+                        <p>- DIY bleeding of hydraulics is not allowed in our workshop.</p>
+                        <p>- Gas powered bikes are not allowed in our workshops.</p>
+                        <p>- We are unable to store your bike or place items on hold at our workshop.</p>
+
+                        <h2 class="section-header">Accepted Payment Methods</h2>
+                        <p>Cash, debit, Visa, MasterCard, American Express, and most common credit cards.</p>
                     </div>
+
                 </div>
 
+                <!-- MECHANICAL COURSES SUBSECTION -->
+
+                <div id="mech-courses" class="body">
+
+                    <div class="header">
+                        <div class="header-text">
+                            <h1>Mechanical Courses</h1>
+                        </div>
+                        <img src="images/workshop-services.png" alt="Header for Mechanical Courses subsection">
+                    </div>
+
+                    <p>Our courses will provide you hands-on experience with working on a bike!<br><br>Our courses are run in small groups in blocks of 3 hours, and are recommended for anyone ages 16 and above.</p>
+
+                    <div class="service-banner">
+                        <div class="banner-text">
+                            <h3>Bike Repair 101</h3>
+                            <p>Learn about the essential parts of your bike and how to keep them in tip top shape to build confidence and save money!</p>
+                            <p>- $50 for non-members, $40 for members.
+                                <br>- Remove front and rear wheels.
+                                <br>- Focus on flats and how to prevent and repair them.
+                                <br>- Basic brake and gear shift adjustments.
+                                <br>- General preventative maintenance.
+                            </p>
+                            <button class="btn-reverse">BOOK THIS COURSE</button>
+                        </div>
+                    </div>
+
+                    <div class="service-banner">
+                        <div class="banner-text">
+                            <h3>Bike 201: Brakes</h3>
+                            <p>Learn to maintain and adjust your brakes to make for a safe, efficient bike ride.</p>
+                            <p>- $65 for non-members, $55 for members.
+                                <br>- This class does not cover the less common brake types.
+                            </p>
+                            <button class="btn-reverse">BOOK THIS COURSE</button>
+                        </div>
+                    </div>
+
+                    <div class="service-banner">
+                        <div class="banner-text">
+                            <h3>Bike 201: Derailleurs and Shifting</h3>
+                            <p>Learn to diagnose derailleur and shifting problems, find the right replacement parts, and tune your derailleurs for optimal shifting!</p>
+                            <p>- $65 for non-members, $55 for members.
+                            </p>
+                            <button class="btn-reverse">BOOK THIS COURSE</button>
+                        </div>
+                    </div>
+
+                    <div class="service-banner">
+                        <div class="banner-text">
+                            <h3>Bike 201: Headsets and Bottom Brackets</h3>
+                            <p>Learn to maintain these essential parts for safe and efficient cycling.</p>
+                            <p>- $65 for non-members, $55 for members.
+                            </p>
+                            <button class="btn-reverse">BOOK THIS COURSE</button>
+                        </div>
+                    </div>
+
+                    
+                    <div class="service-banner">
+                        <div class="banner-text">
+                            <h3>Bike 201: Wheels and Hubs</h3>
+                            <p>Bring your own wheel (or your whole bike) and treat it to new grease and bearings while learning how to overhaul and adjust hubs.</p>
+                            <p>- $65 for non-members, $55 for members.
+                            </p>
+                            <button class="btn-reverse">BOOK THIS COURSE</button>
+                        </div>
+                    </div>
+
+                    <p>If you would like to request for a solo or a private course, please contact us.</p>
+
+                </div>
+
+                <!-- HOURS AND LOCATION SUBSECTION -->
+
+                 <div id="hours-loc" class="body">
+                    
+                    <div class="header">
+                        <div class="header-text">
+                            <h1>Hours & Location</h1>
+                        </div>
+                        <img src="images/workshop-services.png" alt="Header for Hours and Location subsection">
+                    </div>
+
+                    <div>
+                        <p>Bike Edmonton is located in 10612 105 Ave NW, Edmonton, AB T5H 0L2.</p>
+                        <p><strong>Monday</strong>: Volunteer Training</p>
+                        <p><strong>Tuesday</strong>: Courses, seminars, and service by appointment only</p>
+                        <p><strong>Wednesday</strong>: 5:00 PM - 8:30 PM</p>
+                        <p><strong>Thursday</strong>: 5:00 PM - 8:30 PM</p>
+                        <p><strong>Friday</strong>: Closed</p>
+                        <p><strong>Saturday</strong>: 1:00 PM - 5:00 PM</p>
+                        <p><strong>Sunday</strong>: 1:00 PM - 5:00 PM</p>
+                    </div>
+
+                 </div>
+
+                 <!-- WORKSHOP FAQS SUBSECTION -->
+
+                 <div id="workshop-faq" class="body">
+
+                    <div class="header">
+                        <div class="header-text">
+                            <h1>Workshop FAQ</h1>
+                        </div>
+                        <img src="images/workshop-services.png" alt="Header for Workshop FAQs subsection">
+                    </div>
+
+                    <p>If you have a question about our workshop that isn't answered here, please contact us.</p>
+
+                    <h2 class="section-header">Full Service Bike Repair</h2>
+
+                    <div>
+                        <h3><strong>Should I book a 15- or 30-minute repair service?</strong></h3>
+                        <p>A 15-minute service is only intended for quick repairs, such as:<br>- flat tire replacements<br>- seatpost and seat installation
+                        <br>- inspection of bike<br>- chain cleaning</p>
+                        <p>A 30-minute service is intended for work such as:<br>- general tune-up<br>- tire installations<br>- chain repair/replacement 
+                        <br>- wheel replacement<br>- rack/fender installation<br>- bearing adjustment<br>- wheel truing<br>- uncomplicated drivetrain replacement</p>
+                        <p>If you are still unsure of which one to book, book a 30-minute service and we will do a partial refund if the repairs do not require the full service time.</p>
+                    </div>
+
+                    <div>
+                        <h3><strong>What if my repairs need more time?</strong></h3>
+                        <p>We will prioritize the most important repairs and get as much done as we can. If your bike needs more time, we may be able to extend your appointment for an additional fee if space is available. 
+                            <br><br>If we do not have enough space or help to extend your appointment, you will need to return another day. </p>
+                    </div>
+
+                    <div>
+                        <h3><strong>What repairs can you not do?</strong></h3>
+                        <p>We cannot:<br>- bleed hydraulic brakes<br>- install tubeless tires<br>- repair suspension parts<br>- repair electronic e-bike components
+                            <br>- work on gas powered bikes</p>
+                    </div>
+
+                    <div>
+                        <h3><strong>Will you have the parts I need?</strong></h3>
+                        <p>We have most parts needed to repair most bikes. However, we cannot guarantee we have all parts, especially if they are uncommon, higher end, or newer parts.
+                            <br><br>If you know you need a specific part, please let us know in advance or indicate it when you book your appointment.</p>
+                    </div>
+
+                    <div>
+                        <h3><strong>Can you assemble my boxed bike? </strong></h3>
+                        <p>Yes, we can! We recommend booking both a 30 and 15 minute appointment to ensure we have enough time to get it fully built and safety checked. It may require more time if the bike has many accessories.</p>
+                    </div>
+
+                    <div>
+                        <h3><strong>Can I drop off my bike and pick it up when it's done? </strong></h3>
+                        <p>We cannot store bikes overnight under any circumstances.
+                        <br><br>If you have an appointment at the downtown shop you can drop your bike off at your scheduled time and pick it up before we close that day, so long as we can contact you if we have questions about repairs.  
+                        </p>
+                    </div>
+
+                    <h2 class="section-header">Do-It-Yourself and Do-It-Together Repair</h2>
+
+                    <div>
+                        <h3><strong>Are walk-ins allowed?</strong></h3>
+                        <p>Walk-ins are allowed if there’s enough space, at the discretion of our volunteers. You may need to wait or come back another day if we are busy and you don’t have an appointment.</p>
+                    </div>
+
+                    <div>
+                        <h3><strong>How much help will you give me?</strong></h3>
+                        <p>Volunteers provide limited hands-off guidance for DIY repairs, but will not do the work for you. They can show you where to find tools and parts, give cursory help assessing your bike, and point you towards useful resources for necessary repairs.</p>
+                    </div>
+
+                    <div>
+                        <h3><strong>What tools can I use?</strong></h3>
+                        <p>We have a wide range of general and bike specific tools. Each workbench has the most commonly used tools. You will need to ask to use more specialized tools (alignment, taps, etc.).
+                            <br><br>Always ask for help if you’re unsure how to use tools correctly. We are not responsible for damage caused by their misuse.</p>
+                    </div>
+
+                    <div>
+                        <h3><strong>What if I run out of time?</strong></h3>
+                        <p>DIY appointments are currently 1 hour, though you may be able to stay longer if space and time allow. You are responsible for finishing your work in the time available and cleaning up before you go.</p>
+                    </div>
+
+                    <div>
+                        <h3><strong>Will you have the parts I need?</strong></h3>
+                        <p>We have a wide selection of used parts and a limited selection of essential new parts. We can usually provide parts to make most bikes safe and functional, but they may not match, be in nice visual shape, etc.</p>
+                    </div>
+
+                    <div>
+                        <h3><strong>What work is not allowed?</strong></h3>
+                        <p>Hydraulic brake bleeding and work on gas engines are not allowed. Some types of work (using some cutting tools, for example) is only allowed with supervision. Ask in advance if you’re unsure.</p>
+                    </div>
+                 </div>
+
+                 <!-- VOLUNTEER SUBSECTION -->
+
+                 <div id="volunteer" class="body">
+                    
+                    <div class="header">
+                        <div class="header-text">
+                            <h1>Volunteer</h1>
+                        </div>
+                        <img src="images/workshop-services.png" alt="Header for Volunteer subsection">
+                    </div>
+
+                    <p>Volunteers make our shop run! Want to give back to the community, make cycling more accessible, and learn all about bikes? Come join a team of friendly people with a passion for all sorts of bikes!
+                        <br><br>A desire to learn and help others is all you need. No previous bike repair experience is required.</p>
+                    
+                    <div>
+                        <h2 class="section-header">What Volunteering Looks Like</h2>
+                        <p>Our shop is a community resource and learning space.  It is a place to get help with bike repairs, learn about cycling and find affordable parts and used bikes.
+                            Volunteers make this happen by sharing their time and knowledge with the community.<br><br>Volunteers work to create a welcoming space and to keep it running smoothly by:
+                        <br>- welcoming patrons and helping them find bikes and parts<br>- repairing bikes and helping with DIY repairs<br>- fixing up bikes and parts to sell
+                        <br>- organizing and tidying the shop<br>- undertaking special projects</p>
+                    </div>
+
+                    <div>
+                        <h2 class="section-header">Volunteer Perks</h2>
+                        <p>Besides building community and growing your skills, as a regular shop volunteer, you receive:<br>- free use of the workshop and eligibility for a shop key 
+                            <br>- a free Bike Edmonton membership<br>- discounts on parts and bikes</p>
+                        <p>All volunteers have access to:<br>- mechanical training<br>- opportunities for paid mechanic and event work<br>- volunteer events and group bike rides</p>
+                    </div>
+
+                    <div>
+                        <h2 class="section-header">Volunteer Requirements</h2>
+                        <p>- must be 16 and over to volunteer<br>- have a minimum time commitment of 3-4 hours every two weeks<br>- follow all shop rules<br>- help out with all duties needed to keep the shop running</p>
+                    </div>
+
+                    <div>
+                        <h2 class="section-header">How to Become a Volunteer</h2>
+                            <p>1. Visit our shop and fill out our Volunteer Application Form.</p>
+                            <p>2. Attend an information session at the shop where you want to volunteer. We will contact you to attend a session. We will give you the run-down on our history, current operations, and shop rules and guidelines.</p>
+                            <p>3. Sign up for your first shift and start volunteering! Experienced volunteers and staff support new volunteers while they learn the ropes.</p>
+                    </div>
+
+                    <p>If you have any other questions about volunteering or helping beyond our shops, please contact us.</p>
+                </div>
             </div>
+
         </section>
 
         <!-- FOOTER -->

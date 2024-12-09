@@ -677,6 +677,22 @@ footer img {
     justify-content: space-between;
 }
 
+#workshop-body h2 {
+    color:#1F1F1F;
+    font-size: 34px;
+}
+
+#workshop-body h3 {
+    color:#1F1F1F;
+    font-size: 28px;
+}
+
+#workshop-body h3 strong {
+    color:#04387C;
+    font-size: 28px;
+    font-weight: 700;
+}
+
 #workshop-body ul {
     list-style-type: none;
     margin: 0;
@@ -712,12 +728,6 @@ footer img {
     color:#04387C;
 }
 
-#workshop-body h2 {
-    font-family: "Poppins";
-    font-size: 24px;
-    font-weight: 600;
-}
-
 #workshop-body p {
     font-family: "Poppins";
     font-size: 22px;
@@ -727,7 +737,7 @@ footer img {
     display: flex;
     flex-direction: column;
     background-color: #E1E9EE;
-    width: 102.5%;
+    width: 870px;
     height: auto;
     padding-bottom: 20px;
 }
@@ -735,23 +745,6 @@ footer img {
 .banner-text {
     padding-left: 20px;
 }
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #E1E9EE;
-    padding-left: 20px;
-    z-index: 1;
-  }
-
-  .dropdown:active .dropdown-content {
-    display: block;
-  }
 
   /* SERVICES */
   #services-hero {

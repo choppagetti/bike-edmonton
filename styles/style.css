@@ -836,6 +836,118 @@ height: 566px;
         font-size: 18px;
     }
 
+    #about-hero, #workshop-hero {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        height: 200px;
+    }
+
+    #about-hero h1, #workshop-hero h1 {
+        color: white;
+        font-size: 40px;
+        text-align: center;
+        margin-left: 20px;
+        margin-top: -200px;
+    }
+
+    #about-body, #workshop-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        width: 400px;
+    }
+
+    .submenu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        padding-top: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 400px;
+        overflow-x: scroll;
+        padding-left: 80px;
+        padding-right: 40px;
+        margin-left: 40px;
+    }
+    
+    .submenu li {
+        display: inline;
+        list-style-type: none;
+        font-family: "Poppins";
+        margin-left: -40px;
+        font-size: 20px;
+        line-height: 100%;
+        text-align: center;
+        width: 1000px;
+    }
+
+    #vision-mission h2, #workshop-services h2 {
+        font-size: 20px;
+        width: auto;
+        text-align: left;
+        margin-left: 330px;
+        margin-bottom: -20px;
+    }
+
+    #vision-mission p, #workshop-services p {
+        font-size: 18px;
+        width: 400px;
+        text-align: left;
+        margin-left: 330px;
+        padding-top: 15px;
+    }
+
+    .header h1 {
+        color:#04387C;
+        width: 400px;
+        text-align: left;
+        margin-left: 310px;
+        line-height: 100%;
+        margin-top: -20px;
+    }
+
+    .header img {
+        display: none;
+    }
+
+    .img-transparent {
+        display: flex;
+        flex-direction: column;
+        margin-left: 350px;
+        width: 300px;
+    }
+
+    .bullet-list ul {
+        margin-top: -40px;
+        margin-left: 350px;
+    }
+
+    .bullet-list li {
+        font-size: 18px;
+    }
+
+    .service-banner {
+        display: flex;
+        flex-direction: column;
+        width: 390px;
+        margin-left: 330px;
+        line-height: 120%;
+    }
+
+    .banner-text-mobile {
+        font-size: 18px;
+        text-align: left;
+        font-weight: bold;
+        margin-right: 100px;
+    }
+
     .footer-item h1 {
         line-height: 100%;
     }

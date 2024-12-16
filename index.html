@@ -5,15 +5,14 @@
     <head>
 
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, intial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Bike Edmonton | Home</title>
 
-        	<!-- STYLES -->
+        <!-- STYLES -->
     	<link rel="stylesheet" type="text/css" href="styles/style.css">
 	
 	    <!-- NORMALIZE -->
 	    <link rel="stylesheet" type="text/css" href="styles/normalize.css">
-	    <link rel="stylesheet" type="text/css" href="styles/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
 
         <!-- FONTS -->
@@ -32,7 +31,7 @@
                 </div>
 
                 <!-- navigation bar-->
-                 <div>
+                 <div class="hidden-mobile">
                    <ul>
                     <li><a href="about.html">About Us</a></li>
                     <li><a href="#">Buy Bikes & Parts</a></li>
@@ -52,7 +51,7 @@
         </header>
 
         <!-- HERO SECTION -->
-        <section id="hero">
+        <section id="hero" class="hero-mobile">
 
             <div class="home-hero-text">
                 <h1>Cycling is For<br>Everyone</h1>
@@ -67,13 +66,13 @@
         </section>
 
         <!-- UPCOMING EVENT SECTION -->
-        <section id="event">
+        <section id="event" class="event-mobile">
 
             <div class="hero-text">
-                <h1>Upcoming<br>Event</h1>
+                <h1>Upcoming Event</h1>
             </div>
 
-            <div class="event-banner">
+            <div class="event-banner event-mobile">
 
                 <div>
                     <h2>Join us in our volunteer-run community workshop for our <strong>Winter Cycling Workshop</strong>!</h2>
@@ -94,7 +93,7 @@
                 <h1>Shop Bikes</h1>
             </div>
 
-            <div class="bikes-banner">
+            <div class="bikes-banner bike-mobile">
 
                 <div class="bike">
                     <div class="info-overlay">
@@ -129,7 +128,7 @@
                 <h1>Shop Parts & Accessories</h1>
             </div>
 
-            <div class="parts-banner">
+            <div class="parts-banner bike-mobile">
 
                 <div class="bike">
                     <div class="info-overlay">
@@ -186,12 +185,12 @@
             <!-- div for row flex -->
             <div class="footer-flex">
 
-                <div class="footer-item">
+                <div class="footer-item hidden-mobile">
                     <h1>Treaty Six Territory</h1>
                     <p>Bike Edmonton acknowledges that we are located on Treaty 6 territory, a traditional gathering place for diverse Indigenous peoples including the Cree, Blackfoot, Métis, Nakota Sioux, Iroquois, Dene, Ojibway / Saulteaux / Anishinaabe, Inuit, and many others whose histories, languages, and cultures continue to influence our vibrant community. We acknowledge that we are all treaty people and we are committed to equity and justice for all our relations.</p>
                 </div>
 
-                <div class="footer-line"></div>
+                <div class="footer-line hidden-mobile"></div>
 
                 <div class="footer-item">
                     <h1>Newsletter</h1>

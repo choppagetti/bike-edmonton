@@ -153,6 +153,7 @@ nav {
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
+    flex-shrink: 1;
     position: relative;
 }
 
@@ -162,6 +163,7 @@ nav {
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
+    flex-shrink: 1;
     position: relative;
     height: 566px;    
 }
@@ -172,6 +174,7 @@ nav {
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
+    flex-shrink: 1;
     position: relative;
     height: 566px;    
 }
@@ -261,6 +264,7 @@ nav {
     background-repeat: no-repeat;
     display: flex;
     flex-direction: row;
+    flex-shrink: 1;
     justify-content: space-between;
     position: relative;
     padding: 40px;
@@ -730,13 +734,114 @@ footer img {
     padding-left: 20px;
 }
 
-  /* SERVICES */
-  #services-hero {
-    background-image: url(../images/services-hero.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    height: 566px;    
-  }
+/* SERVICES */
+#services-hero {
+background-image: url(../images/services-hero.png);
+background-size: cover;
+background-repeat: no-repeat;
+display: flex;
+flex-direction: column;
+position: relative;
+height: 566px;    
+}
+
+/* MOBILE BREAKPOINT */
+@media screen and (max-width: 480px) {
+
+    .hidden-mobile {
+        display: none;
+    }
+
+    .hero-mobile {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    .hero-mobile h1{
+        font-size: 40px;
+    }
+
+    .hero-mobile h2 {
+        font-size: 34px;
+    }
+
+    #event {
+        background-image: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 800px;
+        width: 210px;
+        margin-top: -50px;
+        margin-bottom: -170px;
+    }
+
+    .hero-text h1 {
+        margin-top: -150px;
+        margin-bottom: -1000px;
+        font-size: 40px;
+        text-align: left;
+        margin-left: -140px;
+        width: 400px;
+        color:#04387C;
+    }
+
+    .event-banner {
+        align-self: center;
+        align-items: center;
+        width: 400px;
+    }
+
+    .event-banner h2, .event-banner p {
+        font-size: 22px;
+        width: 300px;
+    }
+
+    .bike-mobile .info-overlay {
+        width: 300px;
+    }
+
+    .bike-mobile .info-text {
+        font-size: 18px;
+    }
+
+    .bike-mobile .info-link {
+        font-size: 14px;
+    }
+
+    .bike-mobile img {
+        width: 300px;
+    }
+
+    #parts-acc img {
+        width: 300px;
+    }
+
+    #parts-acc h1 {
+        line-height: 100%;
+        text-align: center;
+    }
+
+    .donation-banner {
+        width: 400px;
+    }
+
+    .donation-banner img {
+        width: 400px;
+        align-self: center;
+    }
+
+    .donation-banner p {
+        font-size: 18px;
+    }
+
+    .footer-item h1 {
+        line-height: 100%;
+    }
+
+    .footer-item p {
+        font-size: 18px;
+        width: 100px;
+    }
+}

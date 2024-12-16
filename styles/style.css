@@ -836,7 +836,7 @@ height: 566px;
         font-size: 18px;
     }
 
-    #about-hero, #workshop-hero {
+    #about-hero, #workshop-hero, #services-hero {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -845,7 +845,7 @@ height: 566px;
         height: 200px;
     }
 
-    #about-hero h1, #workshop-hero h1 {
+    #about-hero h1, #workshop-hero h1, #services-hero h1 {
         color: white;
         font-size: 40px;
         text-align: center;
@@ -853,7 +853,7 @@ height: 566px;
         margin-top: -200px;
     }
 
-    #about-body, #workshop-body {
+    #about-body, #workshop-body, #fac-booking {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -876,8 +876,22 @@ height: 566px;
         padding-right: 40px;
         margin-left: 40px;
     }
+
+    #workshop-body .submenu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        padding-top: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 350px;
+        overflow-x: scroll;
+        margin-left: 150px;
+        padding-left: 150px;
+    }
     
-    .submenu li {
+    .submenu li, #workshop-body .submenu li {
         display: inline;
         list-style-type: none;
         font-family: "Poppins";
@@ -885,10 +899,24 @@ height: 566px;
         font-size: 20px;
         line-height: 100%;
         text-align: center;
-        width: 1000px;
+        width: auto;
     }
 
-    #vision-mission h2, #workshop-services h2 {
+    #workshop-body .fac ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        padding-top: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 350px;
+        overflow-x: scroll;
+        margin-left: 80px;
+        padding-left: 100px;
+    }
+
+    #vision-mission h2, #workshop-services h2, #fac-booking h2 {
         font-size: 20px;
         width: auto;
         text-align: left;
@@ -896,7 +924,7 @@ height: 566px;
         margin-bottom: -20px;
     }
 
-    #vision-mission p, #workshop-services p {
+    #vision-mission p, #workshop-services p, #fac-booking p {
         font-size: 18px;
         width: 400px;
         text-align: left;
@@ -941,11 +969,40 @@ height: 566px;
         line-height: 120%;
     }
 
-    .banner-text-mobile {
+    #workshop-services .service-banner p {
+        width: 350px;
         font-size: 18px;
         text-align: left;
-        font-weight: bold;
-        margin-right: 100px;
+        margin-left: -1px;
+        margin-top: -20px;
+    }
+
+    #workshop-faq .section-header {
+        width: 350px;
+    }
+
+    #workshop-faq h3 {
+        width: 400px;
+        font-size: 10px;
+        margin-left: 330px;
+    }
+
+    #bike-gen iframe {
+        width: 370px;
+        height: 300px;
+        margin-left: 330px;
+        margin-top: 50px;
+    }
+
+    #bike-rack img {
+        width: 50px;
+        height: 550px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .padding-extra {
+        margin-top: 50px;
     }
 
     .footer-item h1 {
